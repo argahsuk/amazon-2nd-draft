@@ -12,7 +12,9 @@
     padding: 0;
     overflow-x:hidden;
 }
-
+.ez{
+    overflow-y:hidden;
+}
 address {
     color: white;
 }
