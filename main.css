@@ -1,5 +1,11 @@
-body {
-    overflow-y: auto;
+
+.header {
+    background-color: black;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    align-content: center;
+    overflow-y: hidden;
 }
 
 * {
@@ -8,11 +14,7 @@ body {
     overflow-x: hidden;
 }
 
-.ez {
-    overflow-y: hidden; 
-}
-
-.address {
+address {
     color: white;
 }
 
@@ -30,7 +32,7 @@ body {
 }
 
 .cart a {
-    border: 3px white solid;
+   
     color: wheat;
     margin-left: 15px;
     font-size: 19px;
@@ -39,7 +41,10 @@ body {
 
 .category {
     background-color: rgb(7, 45, 103);
+    height: 6vh;
+    color: white;
     align-content: center;
+    overflow-y: hidden;
 }
 
 .category a {
@@ -47,6 +52,7 @@ body {
     color: white;
     padding: 0.4vh;
     margin-left: 1vh;
+    
 }
 
 .producta {
@@ -63,18 +69,22 @@ body {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
 }
 
-.box2c {
+.box2a {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
+    
 }
 
 .box3c {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
 }
 
 .productb {
@@ -84,25 +94,28 @@ body {
     height: 90vh;
     border: 3px black solid;
     background-color: lightgray;
-    overflow-y: hidden; 
+    overflow-y: hidden;
 }
 
 .box1b {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
 }
 
 .box2b {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
 }
 
 .box3b {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
 }
 
 .productc {
@@ -112,25 +125,29 @@ body {
     height: 90vh;
     border: 3px black solid;
     background-color: lightgray;
-    overflow-y: hidden; 
+    overflow-y: hidden;
 }
 
 .box1c {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
 }
 
 .box2c {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
 }
 
 .box3c {
     height: 90vh;
     width: 33%;
     border: 3px black solid;
+    overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 .box1a img,
@@ -241,7 +258,6 @@ body {
     text-align: center;
     font-size: 14px;
     height: 35vh;
-    overflow-y: hidden; 
 }
 
 .footer a {
