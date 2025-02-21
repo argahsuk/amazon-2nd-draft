@@ -40,8 +40,6 @@ address {
 
 .category {
     background-color: rgb(7, 45, 103);
-    height: 6vh;
-    color: white;
     align-content: center;
 }
 
@@ -50,7 +48,7 @@ address {
     color: white;
     padding: 0.4vh;
     margin-left: 1vh;
-    border: 0.7vh solid white;
+   
 }
 
 .producta {
